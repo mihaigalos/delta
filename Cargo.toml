@@ -1,5 +1,5 @@
 [package]
-name = "git-delta"
+name = "delta"
 authors = ["Dan Davison <dandavison7@gmail.com>"]
 categories = ["command-line-utilities", "development-tools"]
 description = "A syntax-highlighting pager for git"
@@ -9,10 +9,6 @@ homepage = "https://github.com/dandavison/delta"
 license = "MIT"
 repository = "https://github.com/dandavison/delta"
 version = "0.16.5"
-
-[[bin]]
-name = "delta"
-path = "src/main.rs"
 
 [dependencies]
 bat = { version = "0.23.0", default-features = false, features = ["minimal-application", "paging", "regex-onig"] }
